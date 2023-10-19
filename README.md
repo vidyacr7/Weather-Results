@@ -1,14 +1,14 @@
-#                                      Spring Boot Projects
-   
+-----------------Weather Resulkts-----------------
 
-# Part-8: Spring Boot Real Project 
-
-There is  Employee Update process project. 
-  - Update
-  - Add
-  - Delete
- 
- Maven Project
-
-  This picture represents output of the project
-  ![EmployeeSalary](https://user-images.githubusercontent.com/11626327/80946139-55f24c00-8e28-11ea-8a61-52d242b6ba9d.JPG)
+Build a simple REST request implemented in Springboot.
+a. Call the end point below:
+https://api.weather.gov/gridpoints/MLB/33,70/forecast
+b. Return the following result structure for the current day.
+{
+"daily":[{
+"day_name": "Monday",
+"temp_high_celsius": 27.2,
+"forecast_blurp": "Partly Sunny"
+}]
+}
+Any transformation should utilize the reactive stack (Mono, Flux etc.)
