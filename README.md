@@ -15,3 +15,7 @@
 		}]
 		}
 	Any transformation should utilize the reactive stack (Mono, Flux etc.)
+
+# Output:
+
+	<img width="1280" alt="weather pic" src="https://github.com/vidyacr7/Weather-Results/assets/148466953/c9a69fec-5165-476b-b868-dcc5aa14805b">
